@@ -60,24 +60,52 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A7-ja-Ptc">
+                                <rect key="frame" x="132" y="361" width="45" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="+5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHg-Kk-UTZ">
+                                <rect key="frame" x="80" y="361" width="42" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="-5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sz7-JG-vJY">
+                                <rect key="frame" x="216" y="361" width="42" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="-5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0S-9q-cEX">
+                                <rect key="frame" x="268" y="361" width="45" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="+5"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="8A7-ja-Ptc" firstAttribute="top" secondItem="RCE-7X-j2V" secondAttribute="bottom" constant="5" id="04L-V2-gDf"/>
                             <constraint firstItem="z96-tp-3OR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="0Is-tI-hvM"/>
                             <constraint firstItem="cNJ-ga-Oex" firstAttribute="top" secondItem="z96-tp-3OR" secondAttribute="bottom" constant="35" id="2C0-vl-J8Z"/>
                             <constraint firstItem="z96-tp-3OR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="2a3-K8-cFJ"/>
+                            <constraint firstItem="c0S-9q-cEX" firstAttribute="top" secondItem="RCZ-Mc-K99" secondAttribute="bottom" constant="5" id="6Kh-AB-bo5"/>
                             <constraint firstItem="RCZ-Mc-K99" firstAttribute="leading" secondItem="Tdm-aD-tmg" secondAttribute="trailing" constant="10" id="7zg-rC-Xde"/>
                             <constraint firstItem="Tdm-aD-tmg" firstAttribute="top" secondItem="BBm-ra-XRo" secondAttribute="bottom" constant="35" id="8Hl-gb-cKZ"/>
+                            <constraint firstItem="FHg-Kk-UTZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="9Nb-Ve-gXo"/>
                             <constraint firstItem="96o-vJ-jJi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="Alg-ZN-ZUe"/>
                             <constraint firstItem="RCE-7X-j2V" firstAttribute="top" secondItem="cNJ-ga-Oex" secondAttribute="bottom" constant="35" id="IIk-de-YMs"/>
                             <constraint firstItem="RCE-7X-j2V" firstAttribute="leading" secondItem="rqd-FD-f50" secondAttribute="trailing" constant="10" id="IUs-Z6-IET"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BBm-ra-XRo" secondAttribute="trailing" constant="120" id="JDx-zz-caU"/>
                             <constraint firstItem="rqd-FD-f50" firstAttribute="top" secondItem="cNJ-ga-Oex" secondAttribute="bottom" constant="35" id="PpN-l6-wRU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0S-9q-cEX" secondAttribute="trailing" constant="80" id="TRc-rp-fHs"/>
+                            <constraint firstItem="c0S-9q-cEX" firstAttribute="leading" secondItem="sz7-JG-vJY" secondAttribute="trailing" constant="10" id="VeC-sL-EQf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCZ-Mc-K99" secondAttribute="trailing" constant="90" id="ckZ-vG-Qmn"/>
+                            <constraint firstItem="8A7-ja-Ptc" firstAttribute="leading" secondItem="FHg-Kk-UTZ" secondAttribute="trailing" constant="10" id="jEK-jb-JrF"/>
                             <constraint firstItem="RCZ-Mc-K99" firstAttribute="top" secondItem="BBm-ra-XRo" secondAttribute="bottom" constant="35" id="kzL-ni-d5s"/>
                             <constraint firstItem="BBm-ra-XRo" firstAttribute="top" secondItem="96o-vJ-jJi" secondAttribute="bottom" constant="35" id="mml-dU-BtP"/>
+                            <constraint firstItem="FHg-Kk-UTZ" firstAttribute="top" secondItem="rqd-FD-f50" secondAttribute="bottom" constant="5" id="pWx-o2-mZt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="96o-vJ-jJi" secondAttribute="trailing" constant="110" id="qJN-Xp-hDM"/>
+                            <constraint firstItem="sz7-JG-vJY" firstAttribute="top" secondItem="Tdm-aD-tmg" secondAttribute="bottom" constant="5" id="qX5-iW-FUA"/>
                             <constraint firstItem="rqd-FD-f50" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="s6i-N9-ayg"/>
                             <constraint firstItem="cNJ-ga-Oex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="w1H-NX-cw1"/>
                         </constraints>
@@ -85,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="4"/>
+            <point key="canvasLocation" x="119.84732824427481" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
