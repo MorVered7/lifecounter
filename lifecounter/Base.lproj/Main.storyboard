@@ -64,11 +64,6 @@
                                     <action selector="p2_plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bD-XC-IVU"/>
                                 </connections>
                             </button>
-                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2 loses!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NFN-fG-8Zi">
-                                <rect key="frame" x="135" y="259" width="123" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdm-aD-tmg">
                                 <rect key="frame" x="226" y="321" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
@@ -109,6 +104,11 @@
                                     <action selector="p2_plus5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zUx-ea-StE"/>
                                 </connections>
                             </button>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2 loses!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NFN-fG-8Zi">
+                                <rect key="frame" x="135" y="634" width="123" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -117,6 +117,7 @@
                             <constraint firstItem="z96-tp-3OR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="0Is-tI-hvM"/>
                             <constraint firstItem="cNJ-ga-Oex" firstAttribute="top" secondItem="z96-tp-3OR" secondAttribute="bottom" constant="35" id="2C0-vl-J8Z"/>
                             <constraint firstItem="z96-tp-3OR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="2a3-K8-cFJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NFN-fG-8Zi" secondAttribute="bottom" constant="150" id="56e-vG-JI2"/>
                             <constraint firstItem="c0S-9q-cEX" firstAttribute="top" secondItem="RCZ-Mc-K99" secondAttribute="bottom" constant="5" id="6Kh-AB-bo5"/>
                             <constraint firstItem="RCZ-Mc-K99" firstAttribute="leading" secondItem="Tdm-aD-tmg" secondAttribute="trailing" constant="10" id="7zg-rC-Xde"/>
                             <constraint firstItem="Tdm-aD-tmg" firstAttribute="top" secondItem="BBm-ra-XRo" secondAttribute="bottom" constant="35" id="8Hl-gb-cKZ"/>
@@ -139,7 +140,6 @@
                             <constraint firstItem="sz7-JG-vJY" firstAttribute="top" secondItem="Tdm-aD-tmg" secondAttribute="bottom" constant="5" id="qX5-iW-FUA"/>
                             <constraint firstItem="rqd-FD-f50" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="s6i-N9-ayg"/>
                             <constraint firstItem="cNJ-ga-Oex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="w1H-NX-cw1"/>
-                            <constraint firstItem="NFN-fG-8Zi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="xrK-We-wMK"/>
                         </constraints>
                     </view>
                     <connections>

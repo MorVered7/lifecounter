@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         p1_lifecount_var -= 1
         p1_lifecount.text = "\(p1_lifecount_var)"
         if p1_lifecount_var < 1 {
-            lose.text = "Player 1 Loses!"
+            lose.text = "PLAYER 1 LOSES!"
             lose.isHidden = false
         }
     }
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         p1_lifecount_var -= 5
         p1_lifecount.text = "\(p1_lifecount_var)"
         if p1_lifecount_var < 1 {
-            lose.text = "Player 1 Loses!"
+            lose.text = "PLAYER 1 LOSES!"
             lose.isHidden = false
         }
     }
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         p2_lifecount_var -= 1
         lifecount_player2.text = "\(p2_lifecount_var)"
         if p2_lifecount_var < 1 {
-            lose.text = "Player 2 Loses!"
+            lose.text = "PLAYER 2 LOSES!"
             lose.isHidden = false
         }
     }
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         p2_lifecount_var -= 5
         lifecount_player2.text = "\(p2_lifecount_var)"
         if p2_lifecount_var < 1 {
-            lose.text = "Player 2 Loses!"
+            lose.text = "PLAYER 2 LOSES!"
             lose.isHidden = false
         }
     }
