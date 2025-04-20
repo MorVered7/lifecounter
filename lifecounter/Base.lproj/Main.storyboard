@@ -60,11 +60,17 @@
                                 <rect key="frame" x="268" y="321" width="35" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="+"/>
+                                <connections>
+                                    <action selector="p2_plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bD-XC-IVU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdm-aD-tmg">
                                 <rect key="frame" x="226" y="321" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-"/>
+                                <connections>
+                                    <action selector="p2_minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wug-hT-UBj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A7-ja-Ptc">
                                 <rect key="frame" x="132" y="361" width="45" height="35"/>
@@ -86,11 +92,17 @@
                                 <rect key="frame" x="216" y="361" width="42" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="-5"/>
+                                <connections>
+                                    <action selector="p2_minus5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GbW-ea-Lje"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0S-9q-cEX">
                                 <rect key="frame" x="268" y="361" width="45" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="+5"/>
+                                <connections>
+                                    <action selector="p2_plus5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zUx-ea-StE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -123,6 +135,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lifecount_player2" destination="BBm-ra-XRo" id="sWQ-dR-6G0"/>
                         <outlet property="p1_lifecount" destination="cNJ-ga-Oex" id="cFR-yC-Aji"/>
                     </connections>
                 </viewController>
