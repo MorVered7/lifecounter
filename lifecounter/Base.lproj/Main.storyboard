@@ -64,6 +64,11 @@
                                     <action selector="p2_plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bD-XC-IVU"/>
                                 </connections>
                             </button>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2 loses!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NFN-fG-8Zi">
+                                <rect key="frame" x="135" y="259" width="123" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdm-aD-tmg">
                                 <rect key="frame" x="226" y="321" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
@@ -121,9 +126,11 @@
                             <constraint firstItem="RCE-7X-j2V" firstAttribute="leading" secondItem="rqd-FD-f50" secondAttribute="trailing" constant="10" id="IUs-Z6-IET"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BBm-ra-XRo" secondAttribute="trailing" constant="120" id="JDx-zz-caU"/>
                             <constraint firstItem="rqd-FD-f50" firstAttribute="top" secondItem="cNJ-ga-Oex" secondAttribute="bottom" constant="35" id="PpN-l6-wRU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NFN-fG-8Zi" secondAttribute="trailing" constant="135" id="S0w-Im-FuW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0S-9q-cEX" secondAttribute="trailing" constant="80" id="TRc-rp-fHs"/>
                             <constraint firstItem="c0S-9q-cEX" firstAttribute="leading" secondItem="sz7-JG-vJY" secondAttribute="trailing" constant="10" id="VeC-sL-EQf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCZ-Mc-K99" secondAttribute="trailing" constant="90" id="ckZ-vG-Qmn"/>
+                            <constraint firstItem="NFN-fG-8Zi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="iov-hH-AuZ"/>
                             <constraint firstItem="8A7-ja-Ptc" firstAttribute="leading" secondItem="FHg-Kk-UTZ" secondAttribute="trailing" constant="10" id="jEK-jb-JrF"/>
                             <constraint firstItem="RCZ-Mc-K99" firstAttribute="top" secondItem="BBm-ra-XRo" secondAttribute="bottom" constant="35" id="kzL-ni-d5s"/>
                             <constraint firstItem="BBm-ra-XRo" firstAttribute="top" secondItem="96o-vJ-jJi" secondAttribute="bottom" constant="35" id="mml-dU-BtP"/>
@@ -132,10 +139,12 @@
                             <constraint firstItem="sz7-JG-vJY" firstAttribute="top" secondItem="Tdm-aD-tmg" secondAttribute="bottom" constant="5" id="qX5-iW-FUA"/>
                             <constraint firstItem="rqd-FD-f50" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="s6i-N9-ayg"/>
                             <constraint firstItem="cNJ-ga-Oex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="w1H-NX-cw1"/>
+                            <constraint firstItem="NFN-fG-8Zi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="xrK-We-wMK"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="lifecount_player2" destination="BBm-ra-XRo" id="sWQ-dR-6G0"/>
+                        <outlet property="lose" destination="NFN-fG-8Zi" id="Jjh-cx-yG4"/>
                         <outlet property="p1_lifecount" destination="cNJ-ga-Oex" id="cFR-yC-Aji"/>
                     </connections>
                 </viewController>
