@@ -9,6 +9,11 @@ import UIKit
 
 class HistoryViewController: UIViewController {
     var history: [String] = []
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         historyTextView.text = history.joined(separator: "\n")
